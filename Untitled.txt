@@ -1,0 +1,1121 @@
+
+ 
+Q. 57. A program P reads in 500 integers in the range [0..100] representing the scores of 500 students. It then prints the frequency of each score above 50. What would be the best way for P to store the frequencies?
+
+ 
+
+
+
+*
+0/1
+1. An array of 50 numbers
+2. An array of 100 numbers
+3. An array of 500 numbers
+ 
+4. A dynamically allocated array of 550 numbers
+Correct answer
+1. An array of 50 numbers
+ 
+Q. 34. Which of the following sorting algorithms can be used to sort a random linked list with minimum time complexity?
+
+
+
+*
+0/1
+1. Insertion Sort
+2. Quick Sort
+3. Heap Sort
+ 
+4. Merge Sort
+Correct answer
+4. Merge Sort
+ 
+Q. 6. Determine the output of the following program :
+
+public class Ideone {
+
+ 
+
+       public static void main(String[] args) {
+
+              // TODO Auto-generated method stub
+
+              System.out.println(new Ideone().sarapatta(10));
+
+ 
+
+       }
+
+       int sarapatta(int parambarai)
+
+       {
+
+              if( parambarai==0 || parambarai1)
+
+                     return parambarai;
+
+              else
+
+ 
+
+                     return (1 "sarapatta(parambarai-2)+2"sarapatta(parambarai-1));
+
+       }
+
+ 
+
+}
+
+ 
+
+
+
+*
+0/1
+1. 7823
+2. 3278
+3. 7832
+ 
+4. 1393
+Correct answer
+4. 1393
+ 
+Q. 52. An advantage of chained hash table (external hashing) over the open addressing scheme is
+
+ 
+
+
+
+*
+0/1
+1. Worst case complexity of search operations is less
+2. Space used is less
+3. Deletion is easier
+4. None of the above
+ 
+Correct answer
+3. Deletion is easier
+ 
+Q. 44. Suppose the numbers 7, 5, 1, 8, 3, 6, 0, 9, 4, 2 are inserted in that order into an initially empty binary search tree. The binary search tree uses the usual ordering on natural numbers. What is the in-order traversal sequence of the resultant tree?
+
+
+
+*
+0/1
+1. 7 5 1 0 3 2 4 6 8 9
+2. 0 2 4 3 1 6 5 9 8 7
+3. 0 1 2 3 4 5 6 7 8 9
+4. 9 8 6 4 2 3 0 1 5 7
+ 
+Correct answer
+3. 0 1 2 3 4 5 6 7 8 9
+ 
+Q. 60. A B-Tree used as an index for a large database table has four levels including the root node. If a new key is inserted in this index, then the maximum number of nodes that could be newly created in the process are
+
+ 
+
+
+
+*
+0/1
+1. 1
+2. 2
+3. 4
+ 
+4. 5
+Correct answer
+4. 5
+ 
+Q. 24. First come first serve process scheduling algorithm is a representation of the _______ data structure
+
+ 
+
+
+
+*
+1/1
+1. Heap
+2. Stack
+3. Queue
+ 
+4. Array
+ 
+Q. 37. The five items: A, B, C, D, and E are pushed in a stack, one after other starting from A. The stack is popped four items and each element is inserted in a queue. The two elements are deleted from the queue and pushed back on the stack. Now one item is popped from the stack. The popped item is
+
+ 
+
+
+
+ 
+
+*
+0/1
+1. A
+2. B
+3. C
+ 
+4. D
+Correct answer
+4. D
+ 
+Q. 46. The following numbers are inserted into an empty binary search tree in the given order: 10, 1, 3, 5, 15, 12, 16. What is the height of the binary search tree (the height is the maximum distance of a leaf node from the root)?
+
+ 
+
+
+
+*
+0/1
+1. 2
+2. 3
+3. 4
+ 
+4. 6
+Correct answer
+2. 3
+ 
+Q. 31. Which of the following is not a linear data structure?
+
+ 
+
+
+
+*
+0/1
+1. Array
+2. Linked list
+ 
+3. Tree
+4. Vector
+Correct answer
+3. Tree
+ 
+Q. 5. A sorted (ascending order ) singly linked list has n nodes, determining the best case time complexity of inserting an element ( new node ) into the list such that the sorted order remains.
+
+ 
+
+
+
+*
+0/1
+1. O( logn )
+2. O( 1 )
+3. O( nlogn )
+4. O( n )
+ 
+Correct answer
+2. O( 1 )
+ 
+Q. 48. What is the worst case time complexity of inserting n2 elements into an AVL-tree with n elements initially ?
+
+ 
+
+
+
+*
+1/1
+1. Θ(n4)
+2. Θ(n2)
+3. Θ(n2 log n)
+ 
+4. Θ(n3)
+ 
+Q. 40. Which of the following option is not correct?
+
+ 
+
+
+
+*
+0/1
+1. If the queue is implemented with a linked list, keeping track of a front pointer, Only rear pointer s will change during an insertion into an non-empty queue.
+2. Queue data structure can be used to implement least recently used (LRU) page fault algorithm and Quick short algorithm
+3. Queue data structure can be used to implement Quick short algorithm but not least recently used (LRU) page fault algorithm.
+4. Both (A) and (C)
+ 
+Correct answer
+3. Queue data structure can be used to implement Quick short algorithm but not least recently used (LRU) page fault algorithm.
+ 
+Q. 25. (‘m’ ,’a’, ‘d’ ) are the initial contents of a stack. On this stack following operations are performed:{ push( ‘a’ ), pop, pop }. What will be present content of the stack from bottom to top?
+
+ 
+
+
+
+*
+1/1
+1. ( ‘m’ )
+2. (‘m’ ,’a’, ‘d’ )
+3. (‘m’ ,’a’, ‘d’, ‘a’ )
+4. (‘m’ ,’a’ )
+ 
+ 
+Q. 12. Determine the output of the following program :
+
+public class Chacha {
+
+ 
+
+       public static void main(String[] args) {
+
+              // TODO Auto-generated method stub
+
+              System.out.println(new Chacha().choudhary(420,4));
+
+ 
+
+       }
+
+       int choudhary(int n , int r)
+
+       {
+
+              if(n > 0)
+
+                     return( ( n % r) + choudhary(n / r , r));
+
+              else
+
+                     return 0;
+
+       }
+
+ 
+
+}
+
+ 
+
+
+
+ 
+
+*
+0/1
+1. 2
+2. 3
+ 
+3. 5
+4. 6
+Correct answer
+4. 6
+ 
+Q. 43. Consider a binary tree with n nodes, where each node can have at most two children. The height of the tree is defined as the maximum number of edges between the root node and any leaf node. Which of the following statements is true regarding the height h of this binary tree?
+
+ 
+
+
+
+*
+0/1
+1. The height of the tree is always equal to n-1.
+2. The height of the tree can be greater than or equal to n-1.
+3. The height of the tree is always equal to log₂(n).
+4. The height of the tree can be greater than or equal to log₂(n).
+ 
+Correct answer
+2. The height of the tree can be greater than or equal to n-1.
+ 
+Q. 15. Determine the implementation following program
+
+public class LetsParty {
+
+ 
+
+       public static void main(String[] args) {
+
+              // TODO Auto-generated method stub
+
+              System.out.println(new LetsParty().mocktail(5));
+
+ 
+
+       }
+
+       int mocktail(int missile) {
+
+              int rocket = 0;
+
+              if(missile <=0)
+
+                     return 1;
+
+              if(missile > 3)
+
+              {
+
+                     rocket = missile;
+
+                     return mocktail(missile-2)+2;
+
+              }
+
+              return mocktail(missile-1)+rocket;
+
+       }
+
+ 
+
+}
+
+ 
+
+
+
+*
+0/1
+1. 3
+2. 4
+3. 5
+4. 6
+ 
+Correct answer
+1. 3
+ 
+Q. 10. Tree, value of node and value of Right Subtree are in strict order for all nodes in the tree, then we have a
+
+ 
+
+
+
+*
+0/1
+1. AVL Tree
+2. Binary Search Tree
+3. Red Black Tree
+ 
+4. Hierarchical Tree
+Correct answer
+2. Binary Search Tree
+ 
+Q. 9. f(n) represents time complexity of an algorithm, g(n) is an arbitrary time complexity function. If c1g(n) <= c2 g(n), for every input size n(for all, n>n0), where c1, c2 are constants (c1.c2>0) then
+
+ 
+
+
+
+*
+1/1
+1. f(n) = O(g(n))
+ 
+2. f(n) =Θ (g(n))
+3. f(n) = Ω (g(n))
+4. f(n) = (g(n))
+ 
+Q. 2. A tree in which every node has either 0 or 2 children is called
+
+ 
+
+
+
+*
+0/1
+1. Complete Binary Tree
+ 
+2. Strictly Binary Tree
+3. Unbalanced Binary Tree
+4. Binary Search Tree
+Correct answer
+2. Strictly Binary Tree
+ 
+Q. 50. What is the worst case possible height of AVL tree?
+
+ 
+
+
+
+*
+0/1
+1. 2Logn (Assume base of log is 2)
+ 
+2. 1.44log n (Assume base of log is 2)
+3. Depends upon implementation
+4. Theta(n)
+Correct answer
+2. 1.44log n (Assume base of log is 2)
+ 
+Q. 23. The push operation is associated with ________ data structure.
+
+ 
+
+
+
+*
+1/1
+1. Heap
+2. Stack
+ 
+3. Queue
+4. Array
+ 
+ 
+
+Q. 19. The ‘push’ operation is associated with _____ data structure.
+
+ 
+
+
+
+*
+1/1
+1. Heap
+2. Stack
+ 
+3. Queue
+4. Array
+ 
+Q. 14. Determine the algorithm implementation in the following code snippet :
+
+public int knockout( int [] data, int a, int b, int c )
+
+{
+
+int temp;
+
+if(b>c)
+
+return -1;
+
+temp = (b+c)/2;
+
+return (a == data[temp] ? temp : ( a < data[temp] ? knockout(data , a , b, temp-1) : knockout(data, a , temp +1 , c)))
+
+}
+
+ 
+
+
+
+ 
+
+*
+0/1
+1. insertion sort
+2. Binary search
+3. Max Heapify
+4. Selection Sort
+ 
+Correct answer
+2. Binary search
+ 
+Q. 54. Trie is also known as _____
+
+ 
+
+
+
+*
+0/1
+1. Treap
+2. Binomial Tree
+ 
+3. 2-3 Tree
+4. Digital Tree
+Correct answer
+4. Digital Tree
+ 
+Q. 59. The order of an internal node in a B+ tree index is the maximum number of children it can have. Suppose that a child pointer takes 6 bytes, the search field value takes 14 bytes, and the block size is 512 bytes. What is the order of the internal node?
+
+ 
+
+
+
+ 
+
+*
+0/1
+1. 24
+2. 25
+ 
+3. 26
+4. 27
+Correct answer
+3. 26
+ 
+Q. 4. Determine the functionality of following snippet :
+
+public static String olympics(String tokyo) {
+
+                     if(tokye.length()==1)
+
+                           return tokyo;
+
+                     else
+
+                           return tokyo.charAt(tokyo.length()-1+olympics(tokyo.substring(0,length()-1))
+
+}
+
+ 
+
+
+
+*
+0/1
+1. Arranges the characters of the String in descending order
+2. Arranges the characters of the String in ascending order
+3. finds the whether the String is a palindrome
+ 
+4. Reverses a String
+Correct answer
+4. Reverses a String
+ 
+Q. 42. The minimum number of stacks needed to implement a queue is
+
+ 
+
+
+
+*
+0/1
+1. 1
+ 
+2. 2
+3. 3
+4. 4
+Correct answer
+2. 2
+ 
+Q. 55. Which of the following correctly declares an array?
+
+ 
+
+
+
+*
+1/1
+1. int IET[20];
+ 
+2. int IET;
+3. IET {20};
+4. array IET [20];
+ 
+Q. 16. Priority Queue with Heap gives both insertion and retrieval at
+
+ 
+
+
+
+*
+1/1
+1. log n
+ 
+2. n
+3. n 2
+4. 2 n
+ 
+Q. 46. When searching for the key value 60 in a binary search tree, nodes containing the key values 10, 20, 40, 50, 70 80, 90 are traversed, not necessarily in the order given. How many different orders are possible in which these key values can occur on the search path from the root to the node containing the value 60?
+
+ 
+
+
+
+*
+0/1
+1. 35
+2. 64
+3. 128
+ 
+4. 5040
+Correct answer
+1. 35
+ 
+Q. 13. In the graph sum of degrees is
+
+ 
+
+
+
+*
+0/1
+1. 2 * number of edges
+2. number of edges / 2
+3. 2 * number of vertices / 2
+ 
+4. number of vertices / 2
+Correct answer
+1. 2 * number of edges
+ 
+Q. 28. Determine the postfix notation for the infix notation: ( a + b) * (c + d)
+
+ 
+
+
+
+*
+1/1
+1. abcd++*
+2. ad+cb*+
+3. abcd+*+
+4. ab+cd+*
+ 
+ 
+Q. 35. Which of the following is true about linked list implementation of stack?
+
+ 
+
+
+
+*
+0/1
+1. In push operation, if new nodes are inserted at the beginning of linked list, then in pop operation, nodes must be removed from end.
+2. In push operation, if new nodes are inserted at the end, then in pop operation, nodes must be removed from the beginning.
+3. Both of the above
+ 
+4. None of the above
+Correct answer
+4. None of the above
+ 
+Q. 11. Determine c1,c2, n0 such that c1.n2 <= (n2/2)-3n <= c2.n2
+
+ 
+
+
+
+*
+0/1
+1. c1 = ½ , c2 =1/14 , n0 = 6
+2. c1 = ½ , c2 =1/14 , n0 = 7
+3. c1 = 14 , c2 =1/2 , n0 = 6
+ 
+4. c1 = 1/14 , c2 =1/2 , n0 = 7
+Correct answer
+2. c1 = ½ , c2 =1/14 , n0 = 7
+ 
+Q. 45. The average depth of a binary search tree is:
+
+ 
+
+
+
+*
+1/1
+1. O(n0.5)
+2. O(n)
+3. O(log n)
+ 
+4. O(n log n)
+ 
+Q. 7. The collision resolution technique in Hashing where the next immediate vacant slot is looked for is called _________
+
+ 
+
+
+
+*
+0/1
+1. Quadratic Probing
+2. Rehashing
+3. Double Hashing
+ 
+4. Linear Probing
+Correct answer
+4. Linear Probing
+ 
+Q. 17. All the internal nodes have  both the children and all the leaves are at same level, then the tree is a
+
+ 
+
+
+
+*
+0/1
+1. Complete Binary tree
+2. Max Heap
+3. Min Heap
+4. AVL tree
+ 
+Correct answer
+1. Complete Binary tree
+PRN
+*
+250845920048
+ 
+Q. 30. Determine the output of the following program:
+
+class Chachi
+
+{
+
+        public static void main(String[] args) {
+
+        // TODO Auto-generated method stub
+
+        new Chachi().foodie(888);
+
+    }
+
+ 
+
+    void foodie(int noodles) {
+
+        if (noodles <= 1) {
+
+            System.out.println(noodles);
+
+        } else {
+
+            System.out.println(noodles % 2);
+
+        }
+
+    }
+
+}
+
+ 
+
+
+
+ 
+
+*
+0/1
+1. 0
+2. 1
+3. 1100111000
+ 
+4. 1101101000
+Correct answer
+1. 0
+ 
+ 
+
+Q. 39. Which one of the following is an application of Queue Data Structure?
+
+ 
+
+
+
+*
+1/1
+1. When a resource is shared among multiple consumers
+2. When data is transferred asynchronously (data not necessarily received at same rate as sent) between two processes
+3. Load Balancing
+4. All of the above
+ 
+ 
+Q. 38. Stack A has the entries a, b, c (with a on top). Stack B is empty. An entry popped out of stack A can be printed immediately or pushed to stack B. An entry popped out of the stack B can be only be printed. In this arrangement, which of the following permutations of a, b, c are not possible?
+
+ 
+
+
+
+*
+1/1
+1. b a c
+2. b c a
+3. c a b
+ 
+4. a b c
+ 
+Q. 3. Bubble sort gives the best case when the array is  
+
+ 
+
+
+
+*
+0/1
+1. randon
+2. already sorted
+3. small
+ 
+4. big
+Correct answer
+2. already sorted
+ 
+Q. 33. Determine n0 where the expression ( 6n 2 ) becomes greater than (100n + 300 ) for n > 0
+
+ 
+
+
+
+*
+0/1
+1. 20
+2. 21
+3. 22
+ 
+4. 23
+Correct answer
+1. 20
+ 
+Q. 32. An element inside an object can’t be accessed using?
+
+                     
+
+
+
+*
+0/1
+1. object.element()
+2. object[“element”]
+ 
+3. object : : element
+4. JSON.stringyfy(object[“element”])
+Correct answer
+3. object : : element
+ 
+ 
+
+Q. 36. Which one of the following is an application of Stack Data Structure?
+
+ 
+
+
+
+*
+0/1
+1. Managing function calls
+2. Arithmetic expression evaluation
+ 
+3. The stock span problem
+4. All of the above
+Correct answer
+4. All of the above
+ 
+Q. 29. The Fractional Knapsack problem is an example for ______
+
+ 
+
+
+
+*
+1/1
+1. Brute force technique
+2. Dynamic Programming
+3. Backtracking algorithm
+4. Greedy Approach
+ 
+ 
+Q. 18. The time complexity of merging two sorted arrays is ________
+
+ 
+
+
+
+*
+0/1
+1. O(n)
+2. O(nlogn)
+ 
+3. O(n 2)
+4. O(logn)
+Correct answer
+1. O(n)
+ 
+Q. 56. A three dimensional array in ‘C++’ is declared as int A[x][y][z]. Consider that array elements are stored in row major order and indexing begins from 0. Here, the address of an item at the location A[p][q][r] can be computed as follows (where w is the word length of an integer):
+
+ 
+
+
+
+*
+1/1
+1. &A[0][0][0] + w(y * z * q + z * p + r)
+2. &A[0][0][0] + w(y * z * p + z*q + r)
+ 
+3. &A[0][0][0] + w(x * y * p + z * q+ r)
+4. &A[0][0][0] + w(x * y * q + z * p + r)
+ 
+Q.1 find the minimal complexity for an algorithm that finds the rotten egg with minimal weight among a rack of good eggs
+
+ 
+
+
+
+*
+0/1
+1. O( nlogn )
+2. O( n2 )
+ 
+3. O( logn )
+4. O( n-1 )
+Correct answer
+1. O( nlogn )
+ 
+Q. 41. Suppose a circular queue of capacity (n – 1) elements is implemented with an array of n elements. Assume that the insertion and deletion operation are carried out using REAR and FRONT as array index variables, respectively. Initially, REAR = FRONT = 0. The conditions to detect queue full and queue empty are
+
+ 
+
+ 
+
+
+
+*
+0/1
+1. Full: (REAR+1) mod n == FRONT, empty: REAR == FRONT
+2. Full: (REAR+1) mod n == FRONT, empty: (FRONT+1) mod n == REAR
+ 
+3. Full: REAR == FRONT, empty: (REAR+1) mod n == FRONT
+4. Full: (FRONT+1) mod n == REAR, empty: REAR == FRONT
+Correct answer
+1. Full: (REAR+1) mod n == FRONT, empty: REAR == FRONT
+ 
+Q. 20. The maximum number of edges  in a simple graph of n vertices is
+
+ 
+
+
+
+*
+0/1
+1. (n(n-1))/2
+2. (n(n+1))/2
+ 
+3. (n-1)/2
+4. (n+1)/2
+Correct answer
+1. (n(n-1))/2
+ 
+What is the output of the below code?
+
+#include <stdio.h>  
+int main()  
+{  
+   int arr[5]={10,20,30,40,50};  
+   printf("%d", arr[5]);  
+ 
+    return 0;  
+}
+*
+0/1
+1. Garbage value
+2. 10
+3. 50
+ 
+4. None of the above
+Correct answer
+1. Garbage value
+NAME
+*
+Ayan Adam Pathan
+ 
+Q. 51. Which of the following is an advantage of adjacency list representation over adjacency matrix representation of a graph?
+
+ 
+
+
+
+*
+0/1
+1. In adjacency list representation, space is saved for sparse graphs.
+2. DFS and BSF can be done in O(V + E) time for adjacency list representation. These operations take O(V^2) time in adjacency matrix representation. Here is V and E are number of vertices and edges respectively.
+ 
+3. Adding a vertex in adjacency list representation is easier than adjacency matrix representation.
+4. All of the above
+Correct answer
+4. All of the above
+ 
+Q. 21. Derived the pre-order traversal of the tree whose Post order traversal and inorder traversal are 9, 8, 12, 20, 15, 10, 12, 15, 20 respectively
+
+ 
+
+
+
+*
+0/1
+1. 8, 10, 9, 15, 12, 20
+2. 10, 8, 9, 12, 15, 20
+ 
+3. 8, 10, 9, 15, 12, 20
+4. 10, 8, 9, 15, 12, 20
+Correct answer
+4. 10, 8, 9, 15, 12, 20
+ 
+Q. 8. In tree Traversal , root->left->right traversal style is called as
+
+ 
+
+
+
+*
+1/1
+1. Post order traversal
+2. Depth first traversal
+3. Pre order traversal
+ 
+4. Depth first traversal
+ 
+Q. 22. If the stack is empty and pop() operation is performed what will the data structure report?
+
+ 
+
+
+
+*
+0/1
+1. Top
+2. Underflow
+3. Empty
+ 
+4. Overflow
+Correct answer
+2. Underflow
+ 
+Q. 26. Which of the following is the correct ascending order of the complexity exprssions?
+
+ 
+
+
+
+*
+0/1
+1. n < 2n < nlogn < n 2 < 2 n < n!
+2. n < 2n < nlogn < n 2 < n! < 2 n
+ 
+3. n < nlogn < 2n < n 2 < 2 n < n!
+4. n < 2n < nlogn < 2 n < n 2 < n!
+Correct answer
+3. n < nlogn < 2n < n 2 < 2 n < n!
+ 
+Q. 58. Which of the following is FALSE about B/B+ tree
+
+ 
+
+
+
+*
+0/1
+1. B/B+ trees grow upward while Binary Search Trees grow downward.
+2. Time complexity of search operation in B/B+ tree is better than Red Black Trees in general.
+3. Number of child pointers in a B/B+ tree node is always equals to number of keys in it plus one.
+ 
+4. A B/B+ tree is defined by a term minimum degree. And minimum degree depends on hard disk block size, key and address sizes.
+Correct answer
+2. Time complexity of search operation in B/B+ tree is better than Red Black Trees in general.
+ 
+Q. 53. Given a hash table T with 25 slots that stores 2000 elements, the load factor α for T is __________
+
+ 
+
+
+
+*
+0/1
+1. 80
+2. 0.0125
+3. 8000
+ 
+4. 1.25
+Correct answer
+1. 80
+ 
+Q. 49. Which of the following is TRUE?
+
+ 
+
+
+
+*
+1/1
+1. The cost of searching an AVL tree is θ (log n) but that of a binary search tree is O(n)
+ 
+2. The cost of searching an AVL tree is θ (log n) but that of a complete binary tree is θ (n log n)
+3. The cost of searching a binary search tree is O (log n ) but that of an AVL tree is θ(n)
+4. The cost of searching an AVL tree is θ (n log n) but that of a binary search tree is O(n)
+This content is neither created nor endorsed by Google. - Contact form owner - Terms of Service - Privacy Policy
+Does this form look suspicious? Report
+
+Google Forms
